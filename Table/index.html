@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <table border="1" align="center" cellspacing="0" cellpadding="10" width="80%">
+        <caption>
+            <h1>Student Table</h1>
+        </caption>
+        <!-- thead -> table of column label -->
+        <thead>
+            <!-- tr -> ror of cell -->
+            <tr>
+                <!-- th -> header cell -->
+                <th>Roll No.</th>
+                <th>Name</th>
+                <th>Subject</th>
+                <th>Marks</th>
+                <th>Grade</th>
+            </tr>
+        </thead>
+        <!-- tbody -> body of data -->
+        <tbody align="center">
+            <tr>
+                <!-- td -> data cell  -->
+                <td rowspan="3">1</td>
+                <td>Ram</td>
+                <td>HTML</td>
+                <td>100</td>
+                <td>A+</td>
+            </tr>
+            <tr>
+                <!-- td -> data cell  -->
+                <!-- <td>1</td> -->
+                <td>Ram</td>
+                <td>HTML</td>
+                <td colspan="2">100</td>
+                <!-- <td>A+</td> -->
+            </tr>
+            <tr>
+                <!-- td -> data cell  -->
+                <!-- <td>1</td> -->
+                <td>Ram</td>
+                <td colspan="2" rowspan="2" bgcolor="red">HTML</td>
+                <!-- <td>100</td> -->
+                <td>A+</td>
+            </tr>
+            <tr>
+                <!-- td -> data cell  -->
+                <td>1</td>
+                <td>Ram</td>
+                <!-- <td>HTML</td> -->
+                <!-- <td>100</td> -->
+                <td>A+</td>
+            </tr>
+            <tr>
+                <!-- td -> data cell  -->
+                <td>1</td>
+                <td>Ram</td>
+                <td>HTML</td>
+                <td>100</td>
+                <td>A+</td>
+            </tr>
+            <tr>
+                <!-- td -> data cell  -->
+                <td>1</td>
+                <td>Ram</td>
+                <td>HTML</td>
+                <td>100</td>
+                <td>A+</td>
+            </tr>
+        </tbody>
+        <tfoot align="center">
+            <tr>
+                <th>Total</th>
+                <td colspan="4">500</td>
+            </tr>
+        </tfoot>
+    </table>
+</body>
+
+</html>
